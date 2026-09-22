@@ -96,10 +96,3 @@ portfolio-pfe/
 ├── tailwind.config.js
 └── vite.config.js
 ```
-
-## Contact
-
-- **Email:** khalilbenmaatoug@gmail.com
-- **Phone:** +216 29 382 418
-- **GitHub:** [khalil-dev916](https://github.com/khalil-dev916)
-- **LinkedIn:** [khalil-ben-maatoug](https://www.linkedin.com/in/khalil-ben-maatoug)
