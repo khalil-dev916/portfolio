@@ -4,7 +4,7 @@ Personal portfolio website for **Khalil Ben Maatoug**, 3rd-year Computer Science
 
 ## Live
 
-Once deployed: [https://khalil-dev916.github.io/portfolio-pfe](https://khalil-dev916.github.io/portfolio-pfe)
+Once deployed: [https://khalil-dev916.github.io/portfolio](https://khalil-dev916.github.io/portfolio)
 
 ## Features
 
@@ -43,7 +43,7 @@ Hero · About · Projects · Skills · Achievements · Education · Contact
 
 ```bash
 npm install
-npm run dev        # http://localhost:5173/portfolio-pfe/
+npm run dev        # http://localhost:5173/portfolio/
 ```
 
 ## Scripts
@@ -60,7 +60,7 @@ npm run dev        # http://localhost:5173/portfolio-pfe/
 
 ```bash
 git init
-git remote add origin https://github.com/khalil-dev916/portfolio-pfe.git
+git remote add origin https://github.com/khalil-dev916/portfolio.git
 npm run deploy
 ```
 
@@ -69,7 +69,7 @@ Then enable **Pages → Deploy from a branch → `gh-pages`** in repo settings.
 ## Project Structure
 
 ```
-portfolio-pfe/
+portfolio/
 ├── public/
 │   ├── CV-Khalil-Ben-Maatoug.pdf
 │   └── kb-logo.svg

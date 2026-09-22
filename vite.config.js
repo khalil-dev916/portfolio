@@ -4,5 +4,5 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/portfolio-pfe/', // Adjust this if using a custom repo name on GitHub
+  base: '/portfolio/', // GitHub Pages repo name
 });
