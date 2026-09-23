@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { useApp } from "../context/AppContext";
+import HireMeModal from "./HireMeModal";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const [hireOpen, setHireOpen] = useState(false);
   const { lang, toggleLang, theme, toggleTheme, t } = useApp();
 
   const links = [
@@ -60,14 +62,13 @@ export default function Navbar() {
             )}
           </button>
 
-          {/* CV Download */}
-          <a
-            href="/CV-Khalil-Ben-Maatoug.pdf"
-            download="CV-Khalil-Ben-Maatoug.pdf"
+          {/* Hire Me */}
+          <button
+            onClick={() => setHireOpen(true)}
             className="btn btn-primary !py-2 !px-5 !text-sm whitespace-nowrap"
           >
             {t.nav.hireMe}
-          </a>
+          </button>
         </div>
 
         {/* Mobile burger */}
@@ -103,16 +104,19 @@ export default function Navbar() {
               {l.label}
             </a>
           ))}
-          <a
-            href="/CV-Khalil-Ben-Maatoug.pdf"
-            download="CV-Khalil-Ben-Maatoug.pdf"
+          <button
             className="btn btn-primary !py-2 !px-5 !text-sm w-full"
-            onClick={() => setOpen(false)}
+            onClick={() => {
+              setOpen(false);
+              setHireOpen(true);
+            }}
           >
             {t.nav.hireMe}
-          </a>
+          </button>
         </div>
       )}
+
+      <HireMeModal open={hireOpen} onClose={() => setHireOpen(false)} />
     </nav>
   );
 }

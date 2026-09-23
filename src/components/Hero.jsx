@@ -58,8 +58,7 @@ export default function Hero() {
               {t.hero.getInTouch}
             </a>
             <a
-              href="/CV-Khalil-Ben-Maatoug.pdf"
-              download="CV-Khalil-Ben-Maatoug.pdf"
+              href={`${import.meta.env.BASE_URL}CV-Khalil-Ben-Maatoug.pdf`}
               className="btn btn-ghost"
             >
               {t.hero.downloadCV}

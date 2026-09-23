@@ -17,7 +17,17 @@ export const translations = {
         "Software Engineering Student — Building full-stack apps, AI assistants, and modern web experiences.",
       viewWork: "View My Work",
       getInTouch: "Get In Touch",
-      downloadCV: "Download CV",
+      downloadCV: "View CV",
+    },
+    hire: {
+      available: "Available for PFE (January 2027)",
+      blurb:
+        "Actively seeking a PFE internship. Pick the fastest way to reach me — my inbox is always open.",
+      email: "Email",
+      phone: "Phone",
+      viewCV: "View CV",
+      cta: "Send a message",
+      emailSubject: "PFE internship opportunity",
     },
     about: {
       title: "About Me",
@@ -36,6 +46,7 @@ export const translations = {
     projects: {
       title: "Featured Projects",
       viewRepo: "View Repository →",
+      liveDemo: "Live Demo ↗",
       items: [
         {
           tag: "Internship Project",
@@ -120,7 +131,17 @@ export const translations = {
         "Étudiant en Génie Logiciel — Développement full-stack, assistants IA et expériences web modernes.",
       viewWork: "Voir mes projets",
       getInTouch: "Me contacter",
-      downloadCV: "Télécharger CV",
+      downloadCV: "Voir le CV",
+    },
+    hire: {
+      available: "Disponible pour PFE (janvier 2027)",
+      blurb:
+        "Je recherche activement un stage PFE. Choisissez le moyen le plus rapide de me contacter — ma boîte mail est toujours ouverte.",
+      email: "E-mail",
+      phone: "Téléphone",
+      viewCV: "Voir le CV",
+      cta: "Envoyer un message",
+      emailSubject: "Opportunité de stage PFE",
     },
     about: {
       title: "À propos de moi",
@@ -139,6 +160,7 @@ export const translations = {
     projects: {
       title: "Projets phares",
       viewRepo: "Voir le dépôt →",
+      liveDemo: "Démo en direct ↗",
       items: [
         {
           tag: "Projet de stage",

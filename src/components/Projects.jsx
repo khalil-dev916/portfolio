@@ -7,16 +7,19 @@ const projectData = [
     title: "STEG Internship Platform",
     tech: ["PHP", "SQL", "JavaScript", "Chart.js", "HTML/CSS"],
     link: "https://github.com/khalil-dev916/Steg-Internship-Platform-Official-",
+    demo: "https://steg-platform.onrender.com",
   },
   {
     title: "CarDoc AI",
     tech: ["React", "Node.js", "Express", "OpenRouter", "JavaScript"],
     link: "https://github.com/khalil-dev916/CarDoc-AI",
+    demo: "https://cardoc-ai-frontend.vercel.app",
   },
   {
     title: "Tunisian Law AI Assistant",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Groq API", "Mammoth"],
     link: "https://github.com/khalil-dev916/Tunisian-Law-AI-Assistant",
+    demo: "https://tunisian-law-ai.vercel.app/chat",
   },
 ];
 
@@ -54,9 +57,16 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-                <a href={p.link} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 text-txt hover:gap-3 text-sm font-medium transition-all duration-300">
-                  {t.projects.viewRepo}
-                </a>
+                <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
+                  {p.demo && (
+                    <a href={p.demo} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 text-txt hover:gap-3 text-sm font-medium transition-all duration-300">
+                      {t.projects.liveDemo}
+                    </a>
+                  )}
+                  <a href={p.link} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 text-txt hover:gap-3 text-sm font-medium transition-all duration-300">
+                    {t.projects.viewRepo}
+                  </a>
+                </div>
               </SpotlightCard>
             </ScrollReveal>
           ))}
