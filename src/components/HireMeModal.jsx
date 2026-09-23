@@ -64,7 +64,7 @@ export default function HireMeModal({ open, onClose }) {
 
   return (
     <div
-      className="fixed inset-0 z-[100] flex items-center justify-center p-6"
+      className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 overflow-y-auto"
       onClick={onClose}
       role="dialog"
       aria-modal="true"
@@ -75,13 +75,13 @@ export default function HireMeModal({ open, onClose }) {
 
       {/* Card */}
       <div
-        className="relative w-full max-w-md bg-card border border-border rounded-2xl p-7 shadow-2xl modal-in"
+        className="relative w-full max-w-md my-auto bg-card border border-border rounded-2xl p-7 pt-10 shadow-2xl modal-in"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-muted hover:text-txt transition-colors"
+          className="absolute top-3 right-3 w-9 h-9 flex items-center justify-center rounded-lg border border-border bg-bg2 text-muted hover:text-txt hover:border-txt transition-colors"
           aria-label="Close"
         >
           <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
