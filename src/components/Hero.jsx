@@ -12,7 +12,9 @@ function Arrow() {
 }
 
 export default function Hero() {
-  const { t } = useApp();
+  const { lang, t } = useApp();
+
+  const cvFile = lang === "en" ? "Khalil-Ben-Maatoug-CV-EN.pdf" : "CV-Khalil-Ben-Maatoug.pdf";
 
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
@@ -58,7 +60,7 @@ export default function Hero() {
               {t.hero.getInTouch}
             </a>
             <a
-              href={`${import.meta.env.BASE_URL}CV-Khalil-Ben-Maatoug.pdf`}
+              href={`${import.meta.env.BASE_URL}${cvFile}`}
               className="btn btn-ghost"
             >
               {t.hero.downloadCV}

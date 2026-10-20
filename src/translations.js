@@ -10,7 +10,7 @@ export const translations = {
       hireMe: "Hire Me",
     },
     hero: {
-      available: "Available for PFE internship (January 2027)",
+      available: "Available for PFE internship (February 2027)",
       firstName: "Khalil Ben",
       lastName: "Maatoug",
       tagline:
@@ -20,7 +20,7 @@ export const translations = {
       downloadCV: "View CV",
     },
     hire: {
-      available: "Available for PFE (January 2027)",
+      available: "Available for PFE (February 2027)",
       blurb:
         "Actively seeking a PFE internship. Pick the fastest way to reach me — my inbox is always open.",
       email: "Email",
@@ -41,7 +41,7 @@ export const translations = {
       locationLabel: "Location",
       locationValue: "Tunis, Tunisia",
       statusLabel: "Status",
-      statusValue: "Seeking PFE (January 2027)",
+      statusValue: "Seeking PFE (February 2027)",
     },
     projects: {
       title: "Featured Projects",
@@ -104,7 +104,7 @@ export const translations = {
     },
     contact: {
       title: "Get In Touch",
-      text: "I'm actively looking for a PFE opportunity (January 2027). Feel free to reach out — my inbox is always open.",
+      text: "I'm actively looking for a PFE opportunity (February 2027). Feel free to reach out — my inbox is always open.",
       linkedin: "LinkedIn",
       github: "GitHub",
       downloadCV: "Download CV",
@@ -124,7 +124,7 @@ export const translations = {
       hireMe: "Me recruter",
     },
     hero: {
-      available: "Disponible pour un stage PFE (janvier 2027)",
+      available: "Disponible pour un stage PFE (février 2027)",
       firstName: "Khalil Ben",
       lastName: "Maatoug",
       tagline:
@@ -134,7 +134,7 @@ export const translations = {
       downloadCV: "Voir le CV",
     },
     hire: {
-      available: "Disponible pour PFE (janvier 2027)",
+      available: "Disponible pour PFE (février 2027)",
       blurb:
         "Je recherche activement un stage PFE. Choisissez le moyen le plus rapide de me contacter — ma boîte mail est toujours ouverte.",
       email: "E-mail",
@@ -155,7 +155,7 @@ export const translations = {
       locationLabel: "Localisation",
       locationValue: "Tunis, Tunisie",
       statusLabel: "Statut",
-      statusValue: "Recherche PFE (janvier 2027)",
+      statusValue: "Recherche PFE (février 2027)",
     },
     projects: {
       title: "Projets phares",
@@ -218,7 +218,7 @@ export const translations = {
     },
     contact: {
       title: "Contactez-moi",
-      text: "Je recherche activement une opportunité PFE (janvier 2027). N'hésitez pas à me contacter — ma boîte mail est toujours ouverte.",
+      text: "Je recherche activement une opportunité PFE (février 2027). N'hésitez pas à me contacter — ma boîte mail est toujours ouverte.",
       linkedin: "LinkedIn",
       github: "GitHub",
       downloadCV: "Télécharger CV",

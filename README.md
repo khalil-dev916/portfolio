@@ -1,6 +1,6 @@
 # Khalil Ben Maatoug — PFE Portfolio
 
-Personal portfolio website for **Khalil Ben Maatoug**, 3rd-year Computer Science student at Université Centrale Tunisia, seeking a PFE internship (January 2027).
+Personal portfolio website for **Khalil Ben Maatoug**, 3rd-year Computer Science student at Université Centrale Tunisia, seeking a PFE internship (February 2027).
 
 ## Live
 
@@ -12,7 +12,7 @@ Once deployed: [https://khalil-dev916.github.io/portfolio](https://khalil-dev916
 - **Vercel-inspired dark / light mode** — pure black↔white palette, persisted in localStorage
 - **Animated background** — slow-drifting gradient orbs (blue / purple / cyan) behind a subtle grid that fades at the edges
 - **EN / FR language toggle** — full bilingual content
-- **CV download** — `public/CV-Khalil-Ben-Maatoug.pdf`
+- **CV download** — the French or English PDF follows the selected site language
 - **Responsive** — mobile burger menu, desktop nav
 - Custom **K** monogram + favicon
 
@@ -72,6 +72,7 @@ Then enable **Pages → Deploy from a branch → `gh-pages`** in repo settings.
 portfolio/
 ├── public/
 │   ├── CV-Khalil-Ben-Maatoug.pdf
+│   ├── Khalil-Ben-Maatoug-CV-EN.pdf
 │   └── kb-logo.svg
 ├── src/
 │   ├── components/
