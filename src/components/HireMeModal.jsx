@@ -17,7 +17,7 @@ export default function HireMeModal({ open, onClose }) {
 
   if (!open) return null;
 
-  const cvFile = lang === "en" ? "Khalil-Ben-Maatoug-CV-EN.pdf" : "CV-Khalil-Ben-Maatoug.pdf";
+  const cvFile = lang === "en" ? "CV-Khalil-Ben-Maatoug-EN.pdf" : "CV-Khalil-Ben-Maatoug-FR.pdf";
 
   const actions = [
     {

@@ -14,7 +14,7 @@ function Arrow() {
 export default function Hero() {
   const { lang, t } = useApp();
 
-  const cvFile = lang === "en" ? "Khalil-Ben-Maatoug-CV-EN.pdf" : "CV-Khalil-Ben-Maatoug.pdf";
+  const cvFile = lang === "en" ? "CV-Khalil-Ben-Maatoug-EN.pdf" : "CV-Khalil-Ben-Maatoug-FR.pdf";
 
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
