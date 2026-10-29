@@ -5,7 +5,7 @@ export const translations = {
       projects: "Projects",
       skills: "Skills",
       achievements: "Achievements",
-      education: "Education",
+      education: "Degrees",
       contact: "Contact",
       hireMe: "Hire Me",
     },
@@ -44,7 +44,7 @@ export const translations = {
       statusValue: "Seeking PFE (February 2027)",
     },
     projects: {
-      title: "Featured Projects",
+      title: "Academic Projects",
       viewRepo: "View Repository →",
       liveDemo: "Live Demo ↗",
       items: [
@@ -99,7 +99,7 @@ export const translations = {
       ],
     },
     education: {
-      title: "Education",
+      title: "Degrees",
       degree: "B.Sc. in Computer Science",
       specialty: "Software Engineering & Information Systems",
       university: "Université Centrale, Tunisia",
@@ -124,7 +124,7 @@ export const translations = {
       projects: "Projets",
       skills: "Compétences",
       achievements: "Réalisations",
-      education: "Formation",
+      education: "Diplômes",
       contact: "Contact",
       hireMe: "Me recruter",
     },
@@ -163,7 +163,7 @@ export const translations = {
       statusValue: "Recherche PFE (février 2027)",
     },
     projects: {
-      title: "Projets phares",
+      title: "Projets académiques",
       viewRepo: "Voir le dépôt →",
       liveDemo: "Démo en direct ↗",
       items: [
@@ -218,7 +218,7 @@ export const translations = {
       ],
     },
     education: {
-      title: "Formation",
+      title: "Diplômes",
       degree: "Licence en Informatique",
       specialty: "Génie Logiciel & Systèmes d'Information",
       university: "Université Centrale, Tunisie",
