@@ -4,6 +4,11 @@ import SpotlightCard from "./SpotlightCard";
 
 const projectData = [
   {
+    title: "Licorne — MERN E-commerce Shop",
+    tech: ["MongoDB", "Express", "React", "Node.js", "Redux Toolkit", "RTK Query", "React-Bootstrap"],
+    link: "https://github.com/khalil-dev916/Licorne",
+  },
+  {
     title: "STEG Internship Platform",
     tech: ["PHP", "SQL", "JavaScript", "Chart.js", "HTML/CSS"],
     link: "https://github.com/khalil-dev916/Steg-Internship-Platform-Official-",
@@ -20,11 +25,6 @@ const projectData = [
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Groq API", "Mammoth"],
     link: "https://github.com/khalil-dev916/Tunisian-Law-AI-Assistant",
     demo: "https://tunisian-law-ai.vercel.app/chat",
-  },
-  {
-    title: "Licorne — MERN E-commerce Shop",
-    tech: ["React", "Redux Toolkit", "Node.js", "Express", "MongoDB", "React-Bootstrap"],
-    link: "https://github.com/khalil-dev916/Licorne",
   },
 ];
 

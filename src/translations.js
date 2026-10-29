@@ -49,6 +49,11 @@ export const translations = {
       liveDemo: "Live Demo ↗",
       items: [
         {
+          tag: "Full-Stack E-commerce",
+          description:
+            "MERN e-commerce shop with a product catalog and product pages. Uses an MVC backend and Redux Toolkit/RTK Query for data fetching.",
+        },
+        {
           tag: "Internship Project",
           description:
             "Web platform for managing internships and student follow-up at STEG. Built admin, supervisor, and intern dashboards with Chart.js, filtering, pagination, and async updates.",
@@ -62,11 +67,6 @@ export const translations = {
           tag: "Hackathon — 4th Place",
           description:
             "Multilingual legal information assistant for Tunisian law. Won 4th place at GenAI Hackathon. Supports Arabic, French, and English with RTL layouts.",
-        },
-        {
-          tag: "Full-Stack Project",
-          description:
-            "MERN e-commerce web app with product catalog, detail pages, and user accounts. React + Redux Toolkit frontend using RTK Query for data fetching, backed by an MVC Node.js/Express API and MongoDB Atlas. Includes a database seeder and a versioned Postman test collection.",
         },
       ],
     },
@@ -168,6 +168,11 @@ export const translations = {
       liveDemo: "Démo en direct ↗",
       items: [
         {
+          tag: "E-commerce full stack",
+          description:
+            "Boutique e-commerce MERN avec catalogue et fiches produits. Backend MVC et gestion des requêtes avec Redux Toolkit/RTK Query.",
+        },
+        {
           tag: "Projet de stage",
           description:
             "Plateforme web de gestion des stages et du suivi des étudiants chez STEG. Tableaux de bord pour administrateurs, encadrants et stagiaires avec Chart.js, filtrage, pagination et mises à jour asynchrones.",
@@ -181,11 +186,6 @@ export const translations = {
           tag: "Hackathon — 4ème place",
           description:
             "Assistant juridique multilingue pour le droit tunisien. 4ème place au Hackathon GenAI. Supporte l'arabe, le français et l'anglais avec mise en page RTL.",
-        },
-        {
-          tag: "Projet Full-Stack",
-          description:
-            "Application e-commerce MERN avec catalogue de produits, pages de détail et comptes utilisateurs. Frontend React + Redux Toolkit avec RTK Query pour la récupération des données, API Node.js/Express en architecture MVC et base MongoDB Atlas. Inclut un seeder de données et une collection de tests Postman.",
         },
       ],
     },
