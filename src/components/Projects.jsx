@@ -21,6 +21,11 @@ const projectData = [
     link: "https://github.com/khalil-dev916/Tunisian-Law-AI-Assistant",
     demo: "https://tunisian-law-ai.vercel.app/chat",
   },
+  {
+    title: "Licorne — MERN E-commerce Shop",
+    tech: ["React", "Redux Toolkit", "Node.js", "Express", "MongoDB", "React-Bootstrap"],
+    link: "https://github.com/khalil-dev916/Licorne",
+  },
 ];
 
 export default function Projects() {
@@ -37,7 +42,7 @@ export default function Projects() {
           <div className="section-line mb-10" />
         </ScrollReveal>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 gap-6">
           {projectData.map((p, i) => (
             <ScrollReveal key={p.title}>
               <SpotlightCard className="group card-hover h-full bg-card border border-border rounded-xl p-6">

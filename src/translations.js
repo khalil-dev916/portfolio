@@ -63,6 +63,11 @@ export const translations = {
           description:
             "Multilingual legal information assistant for Tunisian law. Won 4th place at GenAI Hackathon. Supports Arabic, French, and English with RTL layouts.",
         },
+        {
+          tag: "Full-Stack Project",
+          description:
+            "MERN e-commerce web app with product catalog, detail pages, and user accounts. React + Redux Toolkit frontend using RTK Query for data fetching, backed by an MVC Node.js/Express API and MongoDB Atlas. Includes a database seeder and a versioned Postman test collection.",
+        },
       ],
     },
     skills: {
@@ -176,6 +181,11 @@ export const translations = {
           tag: "Hackathon — 4ème place",
           description:
             "Assistant juridique multilingue pour le droit tunisien. 4ème place au Hackathon GenAI. Supporte l'arabe, le français et l'anglais avec mise en page RTL.",
+        },
+        {
+          tag: "Projet Full-Stack",
+          description:
+            "Application e-commerce MERN avec catalogue de produits, pages de détail et comptes utilisateurs. Frontend React + Redux Toolkit avec RTK Query pour la récupération des données, API Node.js/Express en architecture MVC et base MongoDB Atlas. Inclut un seeder de données et une collection de tests Postman.",
         },
       ],
     },
